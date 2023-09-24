@@ -100,7 +100,7 @@ body {
     place-items: center;
     text-align: center;
     height:auto;
-    /* padding-right: 10vw; */
+    padding-top: 10vh;
 }
 
 .title {
@@ -114,16 +114,18 @@ body {
 .first-screen {
     text-align: center;
     width: 49%;
+    height: auto;
 }
 
 .second-screen {
     justify-content: center;
     padding:0 2em 0 0 ;
     width: 49%;
+    height: auto;
 }
 
 .second-screen .img {
-    max-width: 70vw;
+    max-width: 40vw;
     height: auto;
 }
 .img{
@@ -147,14 +149,16 @@ body {
 .Motivation{
     text-align: center;
     margin: 2em 0;
+    bottom: 2px;
+    
 }
 .mt-head h1{
     color: #E1D9D1;
-    font-size: 500%;
+    /* font-size: 50vh; */
 }
 .mt-head p{
     color:#C4BDBF;;
-    font-size: 300%;
+    /* font-size: 40vh; */
 }
 
 
