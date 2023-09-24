@@ -30,7 +30,7 @@ body {
 /* B O D Y  */
 .body-screen {
     display: flex;
-    justify-content: right;
+    /* justify-content: right; */
 }
 
 /* <!-- BIJJU HERE ANIMATION --> */
@@ -99,8 +99,8 @@ body {
     display: grid;
     place-items: center;
     text-align: center;
-    height: 70vh;
-    padding-right: 50vh;
+    height:auto;
+    /* padding-right: 10vw; */
 }
 
 .title {
@@ -112,12 +112,14 @@ body {
 
 /* <!-- BIJJU HERE ANIMATION ENDS  --> */
 .first-screen {
-    justify-content: center;
+    text-align: center;
+    width: 49%;
 }
 
 .second-screen {
-    justify-content: right;
+    justify-content: center;
     padding:0 2em 0 0 ;
+    width: 49%;
 }
 
 .second-screen .img {
@@ -153,4 +155,10 @@ body {
 .mt-head p{
     color:#C4BDBF;;
     font-size: 300%;
+}
+
+
+/* R E S P O N S I V E N E S S  */
+@media screen and (max-height : 800px) {
+
 }
