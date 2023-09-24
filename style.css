@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+/* N A V B A R  */
+.navbar {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: right;
+    height: 3rem;
+}
+
+.navbar .icons a {
+    color: aliceblue;
+    padding-right: 10px;
+}
+
+.navbar .icons a:hover {
+    color: #E1D9D1;
+    font-size: larger;
+}
+
+/* B O D Y  */
+.body-screen {
+    display: flex;
+    justify-content: right;
+}
+
+/* <!-- BIJJU HERE ANIMATION --> */
+.title-word {
+    animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+    font-size: 3vw;
+}
+
+.title-word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+}
+
+.title-word-3 {
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #ACCFCB;
+}
+
+.title-word-4 {
+    --color-1: #3D8DAE;
+    --color-2: #DF8453;
+    --color-3: #E4A9A8;
+}
+
+@keyframes color-animation {
+    0% {
+        color: var(--color-1)
+    }
+
+    32% {
+        color: var(--color-1)
+    }
+
+    33% {
+        color: var(--color-2)
+    }
+
+    65% {
+        color: var(--color-2)
+    }
+
+    66% {
+        color: var(--color-3)
+    }
+
+    99% {
+        color: var(--color-3)
+    }
+
+    100% {
+        color: var(--color-1)
+    }
+}
+
+/* Here are just some visual styles. 🖌 */
+
+.container {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    height: 70vh;
+    padding-right: 50vh;
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 5vw;
+    text-transform: uppercase;
+}
+
+/* <!-- BIJJU HERE ANIMATION ENDS  --> */
+.first-screen {
+    justify-content: center;
+}
+
+.second-screen {
+    justify-content: right;
+    padding:0 2em 0 0 ;
+}
+
+.second-screen .img {
+    max-width: 70vw;
+    height: auto;
+}
+.img{
+    border-radius: 50%;
+    overflow: hidden;
+    border: 6px solid #fff;
+}
+.img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.img img:hover{
+    transform: scale(1.3);
+    filter: grayscale(0%);
+}
+/* <!-- Motivation Section --> */
+.Motivation{
+    text-align: center;
+    margin: 2em 0;
+}
+.mt-head h1{
+    color: #E1D9D1;
+    font-size: 500%;
+}
+.mt-head p{
+    color:#C4BDBF;;
+    font-size: 300%;
+}
