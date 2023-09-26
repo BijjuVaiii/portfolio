@@ -35,13 +35,13 @@ body {
 
 /* <!-- BIJJU HERE ANIMATION --> */
 .title-word {
-    animation: color-animation 4s linear infinite;
+    animation: color-animation 2s linear infinite;
 }
 
 .title-word-1 {
-    --color-1: #DF8453;
-    --color-2: #3D8DAE;
-    --color-3: #E4A9A8;
+    --color-1: #c79859;
+    --color-2: #c9aa2d;
+    --color-3: #ffdd00;
     font-size: 3vw;
 }
 
@@ -99,7 +99,7 @@ body {
     display: grid;
     place-items: center;
     text-align: center;
-    height:auto;
+    height: auto;
     padding-top: 10vh;
 }
 
@@ -107,7 +107,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
     font-size: 5vw;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 /* <!-- BIJJU HERE ANIMATION ENDS  --> */
@@ -119,7 +119,7 @@ body {
 
 .second-screen {
     justify-content: center;
-    padding:0 2em 0 0 ;
+    padding: 0 2em 0 0;
     width: 49%;
     height: auto;
 }
@@ -128,12 +128,14 @@ body {
     max-width: 40vw;
     height: auto;
 }
-.img{
+
+.img {
     border-radius: 50%;
     overflow: hidden;
     border: 6px solid #fff;
 }
-.img img{
+
+.img img {
     height: 100%;
     width: 100%;
     border-radius: 50%;
@@ -141,28 +143,39 @@ body {
     transition: 0.5s ease;
     cursor: pointer;
 }
-.img img:hover{
+
+.img img:hover {
     transform: scale(1.3);
     filter: grayscale(0%);
 }
+
 /* <!-- Motivation Section --> */
-.Motivation{
+.Motivation {
     text-align: center;
     margin: 2em 0;
-    bottom: 2px;
-    
 }
-.mt-head h1{
+
+.mt-head h1 {
     color: #E1D9D1;
     /* font-size: 50vh; */
 }
-.mt-head p{
-    color:#C4BDBF;;
+
+.mt-head p {
+    color: #C4BDBF;
     /* font-size: 40vh; */
 }
 
-
-/* R E S P O N S I V E N E S S  */
-@media screen and (max-height : 800px) {
-
+.biodata {
+    text-align:center;
+    margin-bottom: 2vw;
 }
+.biodata a{
+    text-decoration: dashed;
+    color: #dbdf0f ;
+    text-shadow: black 4px 5px 10px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    padding: 2vw;
+    font-size: auto;
+}
+

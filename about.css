@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(315deg, #09c7fb 0%, #93fb9d 74%);
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.info {
+    background-color: aliceblue;
+    border-radius: 5px;
+    border-collapse: collapse;
+    box-shadow: 4px 4px 10px;
+    margin: 2vw 0 0 10vw;
+    width: 70vw;
+}
+
+.info h3 {
+    padding: 1vh 0 0 2vw;
+    color: crimson;
+}
+
+.info table {
+    border: none;
+}
+
+.info table th {
+    width: 15vw;
+    color: cadetblue;
+}
+
+.info table a {
+    text-decoration: none;
+    color: black;
+}
+
+.add {
+    height: 8vw;
+}
+
+.info table td {
+    margin-bottom: 20vh;
+}
+
+.info table td,
+th,
+tr {
+    border: none;
+}
+
+.academic {
+    background-color: aliceblue;
+    border-radius: 5px;
+    border-collapse: collapse;
+    box-shadow: 4px 4px 10px;
+    margin: 3vw 0 3vw 10vw;
+    width: 70vw;
+}
+
+.academic table {
+    padding-bottom: 2vh;
+}
+
+.academic table th {
+    width: 15vw;
+    color: cadetblue;
+}
+
+.academic h3 {
+    padding: 1vh 0 0 2vw;
+    color: crimson;
+}
+/* R E S P O N S I V E N E S S  */
+@media screen and (max-width : 430px) {
+    .info table, .academic table{
+        width: auto;
+    }
+}
