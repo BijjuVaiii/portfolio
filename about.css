@@ -18,7 +18,7 @@ h1 {
     border-collapse: collapse;
     box-shadow: 4px 4px 10px;
     margin: 2vw 0 0 10vw;
-    width: 70vw;
+    width: 80vw;
 }
 
 .info h3 {
@@ -60,7 +60,7 @@ tr {
     border-collapse: collapse;
     box-shadow: 4px 4px 10px;
     margin: 3vw 0 3vw 10vw;
-    width: 70vw;
+    width: 80vw;
 }
 
 .academic table {
